@@ -200,7 +200,8 @@ document.getElementById('search_btn').addEventListener('click', function () {
 document.getElementById('show_all_btn').addEventListener('click', function () {
 
 
-  searchFunction();
+    searchFunction();
+
 
 
 })
@@ -247,4 +248,4 @@ for (let show_f1 of show_field) {
 
 // loadData function call for load data from api
 
-loadData('c',12);
+loadData('c');
